@@ -1,0 +1,44 @@
+
+#menu-burger span {
+  transition: all 0.7s ease;
+}
+
+/* وقتی برگر فعال (کلیک‌شده) می‌شود */
+#menu-burger.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+#menu-burger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+#menu-burger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+
+/* وقتی منو باز شد */
+#mobile-menu.open {
+  transform: translateX(0); /* میاد داخل صفحه */
+   
+}
+
+#mobile-menu{
+transition: 1s ;
+}
+
+
+.bg-aradDirtyGold {
+  --tw-bg-opacity: 1;
+  background-color: rgb(211 174 54 / var(--tw-bg-opacity));
+}
+
+.text-aradPink {
+  --tw-text-opacity: 1;
+  color: rgb(189 102 120 / var(--tw-text-opacity));
+}
+
+
+/* 
+(211 174 54 / var(--tw-bg-opacity)); */
+
